@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level4pro</title>
+</head>
+<body>
+    <main>
+        <ul> 
+            <!-- this ul tag is used for unordered list -->
+            <li>Apple</li>
+            <ul>
+                <li>color : red</li>
+                <li>season : winters</li>
+            </ul>
+            <li>Mango</li>
+            <ul>
+                <li>color : yellow</li>
+                <li>season : summer</li>
+            </ul>
+            <li>Litchi</li>
+            <ul>
+                <li>color : red</li>
+                <li>season : rainy</li>
+            </ul>
+        </ul>
+        <ol>
+            <!-- this ol tag is used for ordered list -->
+            <li>Apple</li>
+            <ul>
+                <li>color : red</li>
+                <li>season : winters</li>
+            </ul>
+            <li>Mango</li>
+            <ul>
+                <li>color : yellow</li>
+                <li>season : summer</li>
+            </ul>
+            <li>Litchi</li>
+            <ul>
+                <li>color : red</li>
+                <li>season : rainy</li>
+        </ol>
+
+        <table>
+            <thead>
+            <caption>student info.</caption>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    roll.no
+                </th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>
+                    Dadda
+                </td>
+                <td>
+                    1000
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Tyagi
+                </td>
+                <td>
+                    1001
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Sarkar
+                </td>
+                <td>
+                    1002
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h4>Registration form </h4>
+        <form action="/action.php">
+            <input type="text" placeholder="username">
+            <br>
+            <br>
+            <input type="password" placeholder="password">
+            <!-- type bhi password dene se hamko password ke andar ka content dikhayi nahi deta  -->
+            <br>
+            <br>
+            <h5>select your class</h5>
+        <label for="101">
+        <input type="radio" value="class XI" name="class" id="101">class XI
+        </label>
+        <br>
+        <label for="102">
+        <input type="radio" value="class XII" name="class" id="102">class XII
+        </label>
+        <br>
+        <br>
+        <hr>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101"> math
+            <br>
+        </label>
+        <label for="physics">
+            <input type="checkbox" value="physics" name="subject" id="102">physics
+            <br>
+        </label>
+        <label for="chemistry">
+            <input type="checkbox" value="chemistry" name="subject" id="103">chemistry
+            <br>
+        </label>
+        <label for="computer science">
+            <input type="checkbox" value="computer science" name="subject" id="104">computer science
+        </label>
+        <br><br>
+        select your city
+        <select name="city" id="">
+            <option value="delhi">delhi</option>
+            <option value="banglore">banglore</option>
+            <option value="pune">pune</option>
+            <option value="hyderabad">hyderabad</option>
+        </select>
+
+        <br><br>
+        <textarea name="feedback" id="101" cols="30" rows="" placeholder="please give ur valuable feedback"></textarea>
+        <br>
+        <input type="submit" value="submit">
+        </form>
+    </main>
+</body>
+</html>
